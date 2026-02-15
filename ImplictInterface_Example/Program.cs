@@ -11,7 +11,7 @@ namespace ImplictInterface_Example
         static void Main(string[] args)
         {
             Developer devObj=new Developer();
-            devObj.DisplayData();//Here directly clling the methods.
+            devObj.DisplayData();//Here directly calling the methods.
             devObj.Work();
             Console.ReadLine();
         }
@@ -29,3 +29,4 @@ namespace ImplictInterface_Example
 👉 You can call it using the object directly.
 ✔ Method must be public
 ✔ Can call using class object directly
+*/
