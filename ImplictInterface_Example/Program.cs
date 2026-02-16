@@ -10,9 +10,12 @@ namespace ImplictInterface_Example
     {
         static void Main(string[] args)
         {
+//This is normal Interfce or implicit interfce example.here method names are not same in any interfces.
+//Due to that we can call interface implented methods by using child class object.
             Developer devObj=new Developer();
-            devObj.DisplayData();//Here directly calling the methods.
+            devObj.DisplayData();//Here directly calling the methods by using child class object.
             devObj.Work();
+            devObj.StudentDataDisplay();
             Console.ReadLine();
         }
     }
@@ -24,7 +27,7 @@ namespace ImplictInterface_Example
 
 ✅ Explicit Interface Implementation
 🔹 1. Implicit Interface Implementation
-
+==================================================
 👉 Method is implemented normally (public).
 👉 You can call it using the object directly.
 ✔ Method must be public
